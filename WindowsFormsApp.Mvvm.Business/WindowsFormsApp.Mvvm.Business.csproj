@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1Business.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WindowsFormsApp.Mvvm.Model\WindowsFormsApp.Mvvm.Model.csproj">
+      <Project>{1d8307ae-7dc7-4d41-94eb-85a9ee9e30aa}</Project>
+      <Name>WindowsFormsApp.Mvvm.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

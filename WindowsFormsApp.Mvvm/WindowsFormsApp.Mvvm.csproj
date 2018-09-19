@@ -79,5 +79,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WindowsFormsApp.Mvvm.Business\WindowsFormsApp.Mvvm.Business.csproj">
+      <Project>{4b85ee2c-b7f0-4cbc-97ab-29efeadff341}</Project>
+      <Name>WindowsFormsApp.Mvvm.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WindowsFormsApp.Mvvm.Model\WindowsFormsApp.Mvvm.Model.csproj">
+      <Project>{1d8307ae-7dc7-4d41-94eb-85a9ee9e30aa}</Project>
+      <Name>WindowsFormsApp.Mvvm.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
