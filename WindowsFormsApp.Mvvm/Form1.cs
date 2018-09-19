@@ -19,7 +19,8 @@ namespace WindowsFormsApp.Mvvm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            txtMsg.Text = "Hello Win From";
+            lblMsg.Text = "";
         }
 
         private void btnClickMe_Click(object sender, EventArgs e)
